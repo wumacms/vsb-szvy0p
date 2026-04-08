@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>公司介绍 - 林克时间</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
   <style>
     body { margin: 0; overflow-x: hidden; }
     .flex-grow { flex-grow: 1; }
@@ -28,38 +28,54 @@
         <span class="text-xl font-semibold text-gray-800 tracking-tight">林克时间</span>
       </div>
       <nav class="hidden md:flex items-center space-x-1 lg:space-x-2">
-        <a href="/vsb-szvy0p/index.html?t=1775637696035" class="px-3 py-2 text-gray-600 hover:text-indigo-600 text-sm font-medium transition-colors rounded-lg hover:bg-gray-50">首页</a>
-            <div class="relative group">
-              <button class="flex items-center gap-1 px-3 py-2 text-gray-600 hover:text-indigo-600 text-sm font-medium transition-colors rounded-lg hover:bg-gray-50">
-                关于我们
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-              <div class="absolute left-0 mt-1 w-48 bg-white rounded-xl shadow-lg border border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-30">
-                <div class="py-2">
-                  <a href="/vsb-szvy0p/about/company.html?t=1775637696035" class="block px-4 py-2 text-sm text-gray-600 hover:bg-indigo-50 hover:text-indigo-600 transition">公司介绍</a>
-                </div>
+        <a href="/vsb-szvy0p/index.html?t=1775654800726" class="px-3 py-2 text-gray-600 hover:text-indigo-600 text-sm font-medium transition-colors rounded-lg hover:bg-gray-50">首页</a>
+          <div class="relative group">
+            <button class="flex items-center gap-1 px-3 py-2 text-gray-600 hover:text-indigo-600 text-sm font-medium transition-colors rounded-lg hover:bg-gray-50">
+              关于我们
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="absolute left-0 mt-1 w-48 bg-white rounded-xl shadow-lg border border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-30">
+              <div class="py-2">
+                <a href="/vsb-szvy0p/about/company.html?t=1775654800726" class="block px-4 py-2 text-sm text-gray-600 hover:bg-indigo-50 hover:text-indigo-600 transition">公司介绍</a>
               </div>
             </div>
+          </div><a href="/vsb-szvy0p/pricing.html?t=1775654800726" class="px-3 py-2 text-gray-600 hover:text-indigo-600 text-sm font-medium transition-colors rounded-lg hover:bg-gray-50">价格</a>
       </nav>
     </div>
   </div>
 </div>
 <main class="flex-grow">
-<div class="bg-gradient-to-b from-white to-gray-50 pt-16 pb-20 overflow-hidden">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center max-w-3xl mx-auto">
-      <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-gray-900 mb-6">公司简介</h1>
-      <p class="text-lg text-gray-600 mb-10">安全、高效、可定制——专为现代企业打造的智能聊天平台，集成工作流与数据洞察。</p>
-      <div class="flex flex-wrap gap-4 justify-center">
-        <a href="#" class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-full font-medium shadow-md transition">开始免费使用</a>
-        <a href="#" class="bg-white border border-gray-300 hover:border-gray-400 text-gray-700 px-6 py-3 rounded-full font-medium shadow-sm transition">联系销售</a>
-      </div>
+<article class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+  <!-- 文章头部 -->
+  <header class="mb-10 text-center md:text-left">
+    <h1 class="text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-gray-900 leading-tight text-center">
+      关于公司
+    </h1>
+    <!-- 发布日期 -->
+    <div class="mt-5 flex items-center justify-center text-gray-500 text-sm">
+      <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+      </svg>
+      <time datetime="2025-09-12">2025-09-12</time>
     </div>
-    <div class="mt-16 max-w-5xl mx-auto"><img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=60" alt="团队协作界面" class="rounded-xl shadow-2xl border border-gray-200 w-full h-auto object-cover" /></div>
+  </header>
+  <!-- 正文区域：纯文章内容 -->
+  <div class="prose prose-lg prose-indigo max-w-none text-gray-700">
+    <p>这是文章正文内容。使用 Markdown 格式编写，支持<strong>粗体</strong>、<em>斜体</em>、列表等功能。</p>
+<h2>二级标题</h2>
+<ul>
+<li>列表项1</li>
+<li>列表项2</li>
+</ul>
+<blockquote>
+<p>引用文本</p>
+</blockquote>
+<p>更多内容...</p>
+
   </div>
-</div>
+</article>
 </main>
 
 <footer class="border-t border-gray-100 bg-gray-50">
